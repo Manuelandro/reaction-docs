@@ -61,3 +61,6 @@ Longer answer: By design you can't, because presentation and data should be sepa
 "Right, I got all your points, but I really need to have more control over how the content is rendered."
 
 If you're absolutely keen it, you could overwrite the React component responsible for rendering [product properties](https://github.com/reactioncommerce/reaction/blob/master/imports/plugins/included/product-detail-simple/client/components/productField.js). You'll find an example on how to overwrite ReactionCommerce's built-in components [here](/developer/tutorial/extending-product-schema-location-map.md).
+
+## How do I change the favicon?
+The easiest way to accomplish this would be to copy the [favicon code](https://github.com/reactioncommerce/reaction/blob/master/imports/plugins/included/default-theme/client/favicons.js) from the default-theme package into your own package. For a step-by-step instruction, see [here](/developer/how-to-change-the-favicon).
